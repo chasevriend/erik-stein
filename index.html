@@ -8,6 +8,7 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="index.css">
     <title>Erik Stein</title>
 </head>
@@ -17,25 +18,131 @@
             <img src="./images/logo.jpeg" alt="logo" class="nav__img">
         </a>
         <span>
-            <a href="#" class="nav__link">Portfolio</a>
-            <a href="#"><button class="nav__btn">Contact</button></a>
+            <a href="#" class="nav__link font-bold">Portfolio</a>
+            <a href="#"><button class="nav__btn font-bold">CONTACT</button></a>
         </span>
     </nav>
     <section id="hero">
         <div class="hero">
             <div class="hero__content">
-                <h1>Erik Stein</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis voluptatem eos quod porro tempora, expedita eum placeat unde doloribus aperiam odit, nam temporibus tempore sint! Quidem natus deserunt ut ipsum.</p>
+                <h1 class="text-white text-5xl font-bold">Erik Stein</h1>
+                <p class="text-slate-400 text-lg font-bold">
+                    Discover an exceptional tattoo artist based in Orange County, renowned for 
+                    his expertise in black and gray realism. With over 5 years of experience, 
+                    he brings intricate details to life, capturing the essence of his clients' 
+                    visions. Elevate your tattoo experience and entrust your dreams to this skilled 
+                    artist for unforgettable, stunning pieces of art.   
+                </p>
+                <button class="hero__btn">CONTACT</button>
             </div>
             <span>
                 <img src="images/pfp2.png" alt="Erik Stein" class="hero__img">
             </span>
         </div>
     </section>
+    <section id="portfolio">
+        <div class="portfolio">
+            <h2 class="text-4xl text-center text-white font-bold pt-9">My Favorite Pieces</h2>
+            <div class="portfolio__container pt-9">
+                <div class="portfolio__cell">
+                    <img src="./images/img1.jpg" alt="portfolio piece" class="portfolio__img">
+                </div>
+                <div class="portfolio__cell">
+                    <img src="./images/img2.jpeg" alt="portfolio piece" class="portfolio__img">
+                </div>
+                <div class="portfolio__cell">
+                    <img src="./images/img3.JPG" alt="portfolio piece" class="portfolio__img">
+                </div>
+            </div>
+        </div>
+    </section>
     <section id="about">
         <div class="about">
             <div class="about__container">
-                
+                <div class="about__content">
+                    <h2 class="text-4xl text-center text-white font-bold pt-9">About</h2>
+                    <p class="text-slate-400 text-lg font-bold">
+                        Discover an exceptional tattoo artist based in Orange County, renowned for 
+                        his expertise in black and gray realism. With over 5 years of experience, 
+                        he brings intricate details to life, capturing the essence of his clients' 
+                        visions. Elevate your tattoo experience and entrust your dreams to this skilled 
+                        artist for unforgettable, stunning pieces of art.   
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <div class="services">
+            <h2 class="text-4xl text-center text-white font-bold">My Services</h2>
+            <div class="services__container">
+                <div class="services__cell1">
+                    <img src="" alt="services image" class="servies__img">
+                    <h4 class="text-center text-2xl text-white font-bold">Custom Tattoo Designs</h4>
+                    <p class="text-center text-lg font-bold text-slate-400">Unleash your imagination 
+                        and elevate your tattoo experience with a skilled black and grey artist who 
+                        specializes in crafting exquisite custom designs tailored uniquely to your 
+                        vision.
+                    </p>
+                </div>
+                <div class="services__cell2">
+                    <img src="" alt="services image" class="servies__img">
+                    <h4 class="text-center text-2xl text-white font-bold">Cover-Up Tattoos</h4>
+                    <p class="text-center text-lg font-bold text-slate-400">Transform your old tattoo 
+                        into a masterpiece with the expertise of a black and grey artist skilled in the
+                         art of cover-ups, offering a fresh canvas for your new vision.
+                    </p>
+                </div>
+                <div class="services__cell3">
+                    <img src="" alt="services image" class="servies__img">
+                    <h4 class="text-center text-2xl text-white font-bold">Tattoo Maintenance</h4>
+                    <p class="text-center text-lg font-bold text-slate-400">Preserve the beauty and 
+                        vibrancy of your black and grey tattoos with the meticulous tattoo maintenance 
+                        services offered by a skilled artist, ensuring your ink remains a stunning work
+                         of art for years to come.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="review">
+        <div class="review">
+            <div class="review__container">
+                <h2 class="text-4xl text-center text-white font-bold">My REview of erik</h2>
+                <p class="text-slate-400 text-xl font-bold text-center">-Chase</p>
+            </div>
+        </div>
+    </section>
+    <section id="pricing">
+        <div class="pricing">
+            <div class="pricing__container">
+                <h2 class="text-4xl text-center text-white font-bold">Pricing</h2>
+                <p class="text-slate-400 text-lg font-bold text-center">
+                    Unlock an unparalleled tattoo experience with a skilled artist who charges $1300 
+                    per day or $650 for a half day. With meticulous attention to detail and a passion 
+                    for their craft, this artist will bring your visions to life in breathtaking, 
+                    personalized designs. Elevate your tattoo journey and indulge in exceptional 
+                    artistry at an affordable price.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact">
+            <div class="contact__container">
+                <div class="contact__content">
+                    <h2 class="text-4xl text-center text-white font-bold">Contact</h2>
+                    <p class="text-slate-400 text-lg font-bold text-center">To inquire about the availability
+                        of our talented tattoo artist, please reach out to us via the contact form provided 
+                        on our website. Kindly include reference images that inspire your vision, specifying 
+                        the desired size and area for your tattoo. Additionally, feel free to share any 
+                        additional pictures of the target area to facilitate a detailed consultation and 
+                        ensure the perfect execution of your design.
+                    </p>
+
+                    <button class="contact__btn">CONTACT</button>
+                </div>
             </div>
         </div>
     </section>

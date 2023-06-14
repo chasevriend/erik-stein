@@ -1,6 +1,6 @@
 :root {
     --black: #101316;
-    --gray: #373343;
+    --gray: #373C43;
 }
 
 * {
@@ -41,13 +41,13 @@ a {
 .nav__link {
     color: #f4f4f4;
     padding: 0 10px;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .nav__btn {
     padding: 10px 20px;
-    font-size: 18px;
+    font-size: 20px;
     border: none;
     color: #f4f4f4;
     background-color: red;
@@ -85,10 +85,93 @@ a {
     /* max-width: 35rem; */
     height: auto;
     width: 400px;
-    border-bottom-left-radius: 50%;
+    border-bottom-left-radius: 30%;
     border-bottom-right-radius: 50%;
 }
 
 .hero span {
     align-items: center;
 }
+
+.hero__content p {
+    padding: 20px 0;
+    /* word-spacing: 6px; */
+}
+
+.hero__btn {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 20px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.portfolio {
+    margin-top: 15vh;
+    width: 100%;
+    background-color: black;
+}
+
+.portfolio__container {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portfolio__cell {
+    height: 500px;
+    width: 500px;
+    padding: 20px 30px;
+    border-radius: 10%;
+}
+
+.portfolio__img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.pricing {
+    margin-top: 15vh;
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pricing__container p {
+    padding: 20px;
+}
+
+.contact {
+    margin-top: 15vh;
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.contact__content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact__container p {
+    padding: 20px;
+}
+
+.contact__btn {
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: red;
+    color: white;
+}
+
