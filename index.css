@@ -111,6 +111,7 @@ a {
     margin-top: 15vh;
     width: 100%;
     background-color: black;
+    padding: 20px;
 }
 
 .portfolio__container {
@@ -128,6 +129,7 @@ a {
     width: 500px;
     padding: 20px 30px;
     border-radius: 10%;
+    cursor: pointer;
 }
 
 .portfolio__img {
@@ -175,3 +177,67 @@ a {
     color: white;
 }
 
+.about__container h2 {
+    margin-top: 10vh;
+    margin-bottom: 3vh;
+}
+
+.about__content {
+    max-width: 50rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services {
+    margin-top: 10vh;
+    max-width: 90rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services__cell {
+    width: 25rem;
+}
+
+.review {
+    margin-top: 15vh;
+    background-color: black;
+}
+
+.review__container {
+    max-width: 60rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+.footer {
+    margin-top: 10vh;
+    background-color: black;
+    width: 100%;
+}
+
+.footer__container {
+    margin-top: 5vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer__icon {
+    color: white;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 5vh;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
