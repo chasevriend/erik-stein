@@ -55,13 +55,6 @@ a {
     font-weight: 600;
 }
 
-@media (max-width: 520px) {
-    .nav__link {
-        display: none;
-    }
-}
-
-
 .hero {
     display: flex;
     justify-content: space-between;
@@ -170,11 +163,12 @@ a {
 }
 
 .contact__btn {
-    padding: 10px 25px;
+    padding: 10px 20px;
     font-size: 20px;
     font-weight: 700;
     background-color: red;
     color: white;
+    border-radius: 5px;
 }
 
 .about__container h2 {
@@ -198,11 +192,12 @@ a {
 
 .services__container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
+    margin-top: 2vh;
 }
 
 .services__cell {
-    width: 25rem;
+    max-width: 25rem;
 }
 
 .review {
@@ -240,4 +235,52 @@ a {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+.pricing__img {
+    position: absolute;
+    margin-left: 40vw;
+}
+
+@media (max-width: 520px) {
+    .nav__link {
+        display: none;
+    }
+    .hero__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        margin-left: 5%;
+    }
+    .hero__img {
+        display: none;
+    }
+    .hero {
+        background-image: none;
+        padding: 0 20px; 
+    }
+    .portfolio__container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+    .portfolio__cell {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .portfolio__img {
+        width: 100%;
+    }
+    .services__container {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .services__cell {
+        padding: 20px;
+    }
 }
